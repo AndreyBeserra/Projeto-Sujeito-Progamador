@@ -1,0 +1,183 @@
+* {
+    margin: 0 auto;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-color: rgb(0, 8, 51);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteiner {
+
+    background-color: rgb(0, 8, 51);
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 14px;
+}
+
+.title {
+
+    text-align: center;
+    color: rgb(0, 225, 255);
+    margin: 14px 0;
+}
+
+.logo {
+    max-width: 227px;
+}
+
+.form label {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+
+}
+
+.input {
+    width: 100%;
+    height: 48px;
+    border-radius: 4;
+    font-size: 20px;
+    padding: 0 14px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 238, 255);
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.result {
+
+    background-color: rgb(0, 82, 114);
+    max-width: 520px;
+    padding: 20px 28px;
+    text-align: center;
+    margin-top: 22px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(255, 255, 255);
+    user-select: none;
+    transition: transform 0.8s;
+}
+
+.hide {
+
+    display: none;
+}
+
+.result:hover {
+
+    background-color: rgb(0, 128, 6);
+    transform: scale(1.1);
+}
+
+.result span {
+    color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+
+}
+
+#text-result {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.info {
+
+    position: fixed;
+    right: 14px;
+    bottom: 22px;
+
+}
+
+
+.info-img {
+
+    width: 66px;
+    height: 66px;
+
+}
+
+.tooltip {
+
+    color: rgb(0, 238, 255);
+    background-color: rgb(11, 91, 97);
+    padding: 10px 8px;
+    border-radius: 6px;
+    position: relative;
+    bottom: 20px;
+    display: none;
+}
+
+.info:hover .tooltip {
+
+    display: inline-block;
+
+}
+
+.cor-clique {
+    color: rgb(255, 255, 255);
+    display: inline;
+}
+
+.sobre {
+    max-width: 620px;
+    background-color: rgb(0, 153, 255);
+    padding: 24px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+
+}
+
+.sobre p {
+
+    color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+    line-height: 150%;
+
+
+}
+
+.button-calcular {
+
+    background-color: rgb(55, 0, 255);
+    height: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 24px;
+    border-radius: 4px;
+
+
+}
+
+.andrey{
+    color: rgb(143, 143, 143);
+}
